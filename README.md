@@ -1,2 +1,2 @@
 # Snaky Snaky
- aka The Classic Snake Game.
+ ## aka The Classic Snake Game.
