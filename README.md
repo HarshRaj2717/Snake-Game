@@ -1,3 +1,3 @@
 # Snaky Snaky
  ## aka The Classic Snake Game.
-(just run min.py👍)
+(just run main.py👍)
