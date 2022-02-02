@@ -11,7 +11,6 @@ def create_border():
     border1.pendown()
     border1.color("red")
     border1.pensize(10)
-    border1.speed(0)
     for i in range(4):
         border1.right(90)
         border1.forward(560)
