@@ -5,7 +5,7 @@ all_turtles = []
 game_on = True
 
 
-def starting_turtles():
+def create_starting_turtles():
     global all_turtles
     x = 0
     for i in range(5):

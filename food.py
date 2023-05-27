@@ -7,9 +7,16 @@ food1 = Turtle("circle")
 food1.speed(0)
 
 
+def create_starting_food():
+    global food1
+    food1 = Turtle("circle")
+    food1.speed(0)
+    create_food()
+
+
 def create_food():
     global food1
-    food1.shapesize(0.5, 0.5)
+    food1.shapesize(1, 1)
     food1.color("yellow")
     food1.penup()
     food1.goto(random.randint(-260, 260), random.randint(-260, 260))
@@ -22,4 +29,3 @@ def food_collision():
         scores.current_score += 1
         scores.write_score()
         snake.increase_size()
-

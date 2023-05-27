@@ -9,14 +9,15 @@ import tail
 
 def main():
     screen1 = Screen()
+    screen1.clear()
     screen1.setup(width=600, height=600)
     screen1.bgcolor("black")
     screen1.title("Snaky Snaky")
     screen1.colormode(255)
 
     border.create_border()
-    snake.starting_turtles()
-    food.create_food()
+    snake.create_starting_turtles()
+    food.create_starting_food()
     scores.write_score()
 
     screen1.listen()
@@ -35,7 +36,7 @@ def main():
         screen1.update()
         time.sleep(0.1)
 
-    screen1.exitonclick()
+    screen1.mainloop()
 
 
 if __name__ == "__main__":
