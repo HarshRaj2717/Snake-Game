@@ -2,7 +2,7 @@
 
 Snaky is just a simple implementation of the snake game in Python using Tkinter with focus on a simple and clean UI.
 
-# Usage
+## Usage
 
 1. Make sure to install python's turtle library using: `pip install turtle`.
 2. Run the main.py file using: `python main.py` in the root folder.
